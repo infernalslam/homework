@@ -53,7 +53,8 @@
                 </div>
             </div>
             <div v-for="show in listItem">
-              {{ show.id}} {{show.name}} {{show.url}}
+              {{ show.id}} {{show.name}}   <a href="{{show.url}}"> {{show.url}} </a>
+              <hr>
             </div>
         </div> <!--closeVuejs-->
 </body>
